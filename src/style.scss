@@ -1,0 +1,44 @@
+$blue: rgb(51, 156, 254);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family:'Courier New', Courier, monospace;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: $blue;
+
+  &:hover {
+    font-weight: 600;
+  }
+}
+
+header {
+  background-color: rgb(218, 218, 218);
+}
+
+.main-nav ul {
+  display: flex;
+  padding: 1rem 2rem;
+  gap: 2rem;
+}
